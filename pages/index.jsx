@@ -13,8 +13,8 @@ const Index = () => {
           obtenido 21 puntuaciones de los usuarios de este sitio web, obteniendo
           una media de 4.6.
         </h2>
-        <article class="card">
-          <div class="card-body">
+        <article class="_card">
+          <div class="_card-body">
             <h5>Fernanda Labrada</h5>
             <p>
               Excelente local para consumir cosas ricas, limpio, buena atención,
@@ -24,15 +24,23 @@ const Index = () => {
               de bolsa lo cual las hace más ricas .
             </p>
           </div>
-          <div class="card-body">
+          <div class="_card-body">
             <hr />
             <h5>biker_owl</h5>
             <p>Lo mejor de la zona para comer snacks!!</p>
           </div>
-          <div class="card-body">
+          <div class="_card-body">
             <hr />
             <h5>Angélica Labrada</h5>
             <p>Muy rico todo Excelente servicio</p>
+          </div>
+          <div class="_card-body">
+            <hr />
+            <h5>Manuel Mar</h5>
+            <p>
+              Muy buenos productos de excelente calidad, frescos y muy sabrosos,
+              además tienen precios accesibles
+            </p>
           </div>
         </article>
       </div>
