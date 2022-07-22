@@ -1,0 +1,57 @@
+body
+  font-family: 'Amatic SC', cursive !important
+
+._bg-header
+  background-image: url('../public/bg-header-min.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  height: 18.75em
+
+  ._bg-navbar
+    background-color: rgba(0, 0, 0, 0.550)
+    padding: 1.5em 0
+
+    ._navbar
+      display: flex
+      flex-direction: column
+      align-items: center
+      @media (min-width: 768px)
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+  
+      ._navbar-brand
+        display: flex
+        flex-direction: column
+        align-items: center
+        color: white
+        font-size: 2rem
+        text-decoration: none
+        font-weight: 500
+        margin-bottom: 1em
+        @media (min-width: 768px)
+          flex-direction: row
+          margin-bottom: 0
+          margin-left: 100px
+          
+        img
+          width: 2em
+          
+  
+      ._navbar-nav
+        background-color: rgba(248, 243, 165, 0.550)
+        padding: 1em
+        border-radius: 0.3em
+
+        ._nav-link
+          display: inline-block
+          padding: 0.3em
+          text-decoration: none
+          color: white
+
+        ._nav-link:hover
+          background-color: white
+          color: rgb(0, 0, 0)
+          border-radius: 0.5em
+

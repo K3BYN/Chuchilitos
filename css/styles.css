@@ -1,0 +1,89 @@
+.title-img {
+  display: flex;
+  justify-content: center;
+}
+.title-img img {
+  height: 150px;
+  width: 150px;
+  margin-top: -5em;
+}
+@media (min-width: 768px) {
+  .title-img img {
+    height: 200px;
+    width: 200px;
+    margin-top: -10em;
+  }
+}
+
+.i-container {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+.i-container h2 {
+  align-self: center;
+}
+
+.productos {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+@media (min-width: 768px) {
+  .productos {
+    gap: 1em;
+  }
+}
+
+/*  Card  */
+.card {
+  background-color: #EEDAD1;
+  color: black;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+  align-self: center;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 0.5em;
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+
+.card-img:hover {
+  transform: scale(1.8);
+}
+
+.card-body {
+  padding: 1em;
+}
+
+h5 {
+  font-size: 1.5rem;
+  margin: 1em 0;
+  font-weight: 500;
+}
+@media (min-width: 1000px) {
+  h5 {
+    font-size: 2rem;
+  }
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+@media (min-width: 1000px) {
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+.a-container {
+  margin: 5% 15% 5% 15%;
+}
+
+/*# sourceMappingURL=styles.css.map */
