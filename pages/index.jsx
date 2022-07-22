@@ -1,4 +1,5 @@
 import Container from "../components/container";
+import "bootswatch/dist/cosmo/bootstrap.min.css";
 const Index = () => {
   return (
     <Container>
