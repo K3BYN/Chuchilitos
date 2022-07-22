@@ -35,7 +35,7 @@
 }
 
 /*  Card  */
-.card {
+._card {
   background-color: #EEDAD1;
   color: black;
   border-radius: 0.5em;
@@ -44,7 +44,7 @@
   overflow: hidden;
 }
 
-.card-img {
+._card-img {
   width: 100%;
   border-radius: 0.5em;
   transform: scale(1);
@@ -57,7 +57,7 @@
   transform: scale(1.8);
 }
 
-.card-body {
+._card-body {
   padding: 1em;
 }
 
